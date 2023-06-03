@@ -1,5 +1,6 @@
 # pytorch cnn model on mnist dataset
 This repository provides code  to train a convolutional neural network (CNN) on the MNIST dataset using PyTorch.
+The dataset contains images with size 28x28x1. Sample images are shown below with corresponding labels:
 
 <img width="550" alt="image" src="https://github.com/hemant1456/pytorch_mnist/assets/19394814/99da42e1-94ff-41a9-81de-af8901520e56">
 
