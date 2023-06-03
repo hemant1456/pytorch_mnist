@@ -1,10 +1,9 @@
 # pytorch cnn model on mnist dataset
 This repository provides code  to train a convolutional neural network (CNN) on the MNIST dataset using PyTorch.
 
-## This project requires the following Python libraries:
-torch,torchvision, matplotlib, numpy, tqdm,torchsummary
-You can install them using pip:
-pip install torch torchvision matplotlib numpy tqdm torchsummary
+## Dependencies
+1. This project requires the following Python libraries: torch,torchvision, matplotlib, numpy, tqdm,torchsummary
+2. You can install by following command: pip install torch torchvision matplotlib numpy tqdm torchsummary
 
 
 ## Model Architecture 
@@ -12,16 +11,16 @@ The model is a simple yet effective convolutional neural network (CNN) for digit
 
 ## utils.py
 This file contains utility functions for training, testing, and visualizing the model's performance.
-**GetCorrectPredCount**: Counts the number of correct predictions in a batch.
-**train_model**: Trains the model for one epoch, calculates the loss and updates the weights.
-**test_model**: Evaluates the model on the test data and calculates the test loss and accuracy.
-**plot_images**: Plots a batch of images with their corresponding labels.
-**plot_losses**: Plots the training and test losses and accuracies over epochs.
+1. **GetCorrectPredCount**: Counts the number of correct predictions in a batch.
+2. **train_model**: Trains the model for one epoch, calculates the loss and updates the weights.
+3. **test_model**: Evaluates the model on the test data and calculates the test loss and accuracy.
+4. **plot_images**: Plots a batch of images with their corresponding labels.
+5. **plot_losses**: Plots the training and test losses and accuracies over epochs.
 
 ## Running the Model
 This script loads the MNIST dataset, applies transformations, defines the model, optimizer, loss function, and trains the model for a given number of epochs.
 
-Instructions to Run 
+## Instructions to Run 
 To train the model, navigate to the directory containing the files and run the S5.ipynb using jupyter notebook
 
 ## Results
